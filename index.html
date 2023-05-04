@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>. : AirFlixx : .</title>
+		<link rel="shortcut icon" href="./img/icons/favicon.ico">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="logo-container">
+					<a href="index.html"
+						><img
+							src="./img/logo-hor.png"
+							alt="logo-horizontal"
+							class="logo"
+					/></a>
+				</div>
+				<div>
+					<form class="search-box">
+						<input
+							type="search"
+							name="search-field"
+							id=""
+							class="search-field"
+							placeholder="Buscar.."
+						/>
+						<a href="#" class="search-btn">
+							<i class="fa-solid fa-magnifying-glass fa-xl"></i>
+						</a>
+					</form>
+				</div>
+				<div class="dropdown">
+					<button class="user-container">
+						<i class="fa-solid fa-bars fa-lg"></i>
+						<a href="#" class="user-btn">
+							<i class="fa-solid fa-circle-user fa-3x"></i>
+						</a>
+					</button>
+					<div class="dropdown-content">
+						<a href="#"><span>Cadastre-se</span></a>
+						<a href="#">Login</a>
+						<hr />
+						<a href="#">Ajuda</a>
+					</div>
+				</div>
+			</nav>
+			<div class="carousel">
+				<button class="prev-btn" aria-label="Prev">
+					<i class="fa-solid fa-arrow-left fa-xl"></i>
+				</button>
+				<button class="next-btn" aria-label="Next">
+					<i class="fa-solid fa-arrow-right fa-xl"></i>
+				</button>
+				<div class="icon-container">
+					<div class="icons">
+						<img
+							src="./img/icons/action.png"
+							alt="action-icon"
+							class="icon current-icon"
+						/>
+						<article>Ação</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/adventure.png"
+							alt="adventure-icon"
+							class="icon"
+						/>
+						<article>Aventura</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/old3.png"
+							alt="old-movies-icon"
+							class="png-icon"
+							class="icon"
+						/>
+						<article>Clássicos</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/comedy.png"
+							alt="comedy-icon"
+							class="icon"
+						/>
+						<article>Comédia</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/drama.png"
+							alt="drama-icon"
+							class="icon"
+						/>
+						<article>Drama</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/documentary.png"
+							alt="documentary-icon"
+							class="icon"
+						/>
+						<article>Documentário</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/fantasy.png"
+							alt="fantasy-icon"
+							class="icon"
+						/>
+						<article>Fantasia</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/western.png"
+							alt="western-icon"
+							class="icon"
+						/>
+						<article>Faroeste</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/sci-fi.png"
+							alt="scifi-icon"
+							class="icon"
+						/>
+						<article>Fic. Científica</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/war.png"
+							alt="war-icon"
+							class="icon"
+						/>
+						<article>Guerra</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/hero.png"
+							alt="hero-icon"
+							class="icon"
+						/>
+						<article>Heróis</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/history.png"
+							alt="history-icon"
+							class="icon"
+						/>
+						<article>Historicos</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/musical.png"
+							alt="musical-icon"
+							class="icon"
+						/>
+						<article>Musical</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/police.png"
+							alt="police-con"
+							class="icon"
+						/>
+						<article>Policial</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/romantic.png"
+							alt="romantic-icon"
+							class="icon"
+						/>
+						<article>Romance</article>
+					</div>
+					<div class="icons">
+						<img
+							src="./img/icons/terror.png"
+							alt="horror-icon"
+							class="icon"
+						/>
+						<article>Terror</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		</header>
+		<main>
+			
+			<section class="cards-container">
+				<div class="card">
+					<div class="card-img">
+						<img src="https://m.media-amazon.com/images/I/51asM9eJMXL.jpg" alt="harry-potter-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>Harry Potter e a Câmara Secreta</h4>
+							<p>Fantasia - 2001 </p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span> 5.0</span> 
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="https://upload.wikimedia.org/wikipedia/pt/3/38/Lord_of_the_Rings_Fellowship_of_the_Ring.jpg" alt="lord-of-the-rings-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>Senhor dos Anéis: A Sociedade do Anel</h4>
+							<p>Aventura / Fantasia - 2002</p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span> 5.0</span> 
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="https://upload.wikimedia.org/wikipedia/pt/2/22/Titanic_poster.jpg" alt="titanic-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>Titanic</h4>
+							<p>Drama / Romance - 1998</p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span>4.6</span> 
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="https://br.web.img3.acsta.net/pictures/14/10/27/20/07/170589.jpg" alt="john-wick-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>John Wick - De volta ao Jogo</h4>
+							<p>Ação - 2014</p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span>4.3</span> 
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="https://s2.glbimg.com/T9_QN3WDnMiCJBhjkRanrTWwoGA=/362x536/https://s2.glbimg.com/H9sLjnVv_eNaX8IBpjwBiu56778=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2020/z/5/C1qeGsS5KhNsJrAEiwsg/2019-653-mk-filmes-paramount-o-resgate-do-soldado-ryan-poster.jpg" alt="saving-private-ryan-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>O Resgate do Soldado Ryan</h4>
+							<p>Guerra - 1999</p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span>4.7</span> 
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="https://br.web.img3.acsta.net/pictures/14/10/31/20/39/476171.jpg" alt="interstellar-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>Interestelar</h4>
+							<p>Fic. Científica - 2014 </p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span>4.6</span> 
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg" alt="the-batman-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>The Batman</h4>
+							<p>Heróis - 2022 </p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span>4.0</span> 
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Modern_Times_poster.jpg" alt="modern-times-movie-cover">
+					</div>
+					<div class="card-info">
+						<div class="card-text">
+							<h4>Tempos Modernos</h4>
+							<p>Clássicos - 1936</p>
+						</div>
+						<div class="star-note">
+							<i class="fa-solid fa-star fa-sm"></i><span>4.6</span> 
+						</div>
+					</div>
+				</div>
+			</section>
+			
+		</main>
+		<footer>
+			<div class="footer-container">
+				<div class="footer-text"><h4>@BERS3RKESS</h4></div>
+				<div class="logo-on-foot">
+					<a href="index.html"
+						><img
+							src="./img/logo-ver.png"
+							alt="logo-vertical"
+							class="logo-footer"
+					/></a>
+				</div>
+				<div class="social">
+					<a href="https://www.linkedin.com/in/kesley-rainery/">
+						<i class="fa-brands fa-linkedin fa-2x""></i>
+					</a>
+					<a href="https://github.com/BerserKess">
+						<i class="fa-brands fa-github fa-2x""></i>
+					</a>
+					<a href="https://www.instagram.com/bers3rkess/">
+						<i class="fa-brands fa-instagram fa-2x"></i>
+					</a>
+				</div>
+			</div>
+		</footer>
+		<script src="./JS/index.js"></script>
+		<script src="./JS/dropdown-menu.js"></script>
+		<script src="./JS/carousel.js"></script>
+		<script
+			src="https://kit.fontawesome.com/52d98fe718.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
