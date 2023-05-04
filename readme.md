@@ -1,4 +1,4 @@
-<h1 align="center"> Password Generator :lock:</h1>
+<h1 align="center"> Project AirFlixx (Layout) :movie_camera:</h1>
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
